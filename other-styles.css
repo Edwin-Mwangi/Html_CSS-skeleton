@@ -106,7 +106,7 @@ article p{
     background-color: #f4f4f4;
     text-align: center;
     padding: 60px 20px;
-    color: grey;
+    color: black;
 }
 
 .join h2{
@@ -140,7 +140,7 @@ nav li a:hover{
 }
 
 form input:focus{
-    border: dashed;
+    border: solid skyblue;
     outline: none;
 }
 form input:valid{
@@ -158,7 +158,7 @@ article p::first-line{
 }
 
 section.join p::selection{
-    background-color: red;
+    background-color: darkgrey;
     color: white;
 }
 
